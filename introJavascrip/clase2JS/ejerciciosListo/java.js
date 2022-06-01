@@ -8,8 +8,8 @@ if (bellisimo == "si" ) {
 }
 ​
 */
-​
-​
+
+
 // 2
 /*
 var num = prompt('Ingresa un numero');
@@ -23,7 +23,7 @@ if (parseInt(num) % 2 == 0) {
 }
 ​
 */
-​
+
 //3
 /*
 var num = prompt('Ingresa un numero');
@@ -33,7 +33,7 @@ if (parseInt(num) % 2 == 0) {
     alert('El numero: '+num + ' no es par');
 }
 */
-​
+
 //4
 /*
 var num = prompt('Ingresa un numero');
@@ -43,7 +43,6 @@ if(parseInt(num) === 1000){
     console.log('Numero: '+num +' Lo sentimos, sigue participando');
 }
 */
-​
 //5
 /*
 var num = prompt('Ingresa un numero');
@@ -54,14 +53,12 @@ if (parseInt(num) > parseInt(num2)) {
     console.log(num+ ' es el menor');
 }
 */
-​
 //6
 /*
 var num1 = parseInt(prompt("numero uno: "));
 var num2 = parseInt(prompt("numero dos: "));
 var num3 = parseInt(prompt("numero tres: "));
 var mayor;
-​
 if(num1 > num2 && num1 > num3) {
     mayor = num1;
     console.log("El mayor es " + mayor);
@@ -88,10 +85,8 @@ else {
     console.log("El mayor es " + mayor);
 }
 */
-​
-​
 //7
-​
+
 /*
 var dia = prompt("Ingresa un dia de la semana").toLocaleLowerCase();
 if (dia == "lunes") {
@@ -104,7 +99,7 @@ if (dia == "lunes") {
   console.log("Domingo");
 }
 */
-​
+
 //8
 /*
 var calificacion = parseInt(prompt("Ingresar una calificacion entre 1 y 10: "));
@@ -123,7 +118,7 @@ if (calificacion >= 1 && calificacion <= 10) {
 }
 ​
 */
-​
+
 //9
 /*
 var topping = parseInt(prompt("Elige el tipo de topping para tu helado: \n '1' sin topping \n '2' topping oreo \n '3' topping KitKat \n '4' topping brownie  "));
@@ -140,7 +135,7 @@ if (topping == 1) {
     console.log("Opcion no valida");
 }
 */
-​
+
 //10
 /*
 var programa = parseInt(prompt("Elige el tipo de programa: \n '1' Course \n '2' Carrera  \n '3' Master "));
