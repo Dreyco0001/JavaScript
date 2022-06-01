@@ -1,5 +1,6 @@
 // 1
 /* 
+
 var bellisimo = prompt('¿Eres bellisimo/a?').toLocaleLowerCase();
 if (bellisimo == "si" ) {
     console.log("Ciertamente");
@@ -9,9 +10,9 @@ if (bellisimo == "si" ) {
 ​
 */
 
-
 // 2
 /*
+
 var num = prompt('Ingresa un numero');
 var num2 = prompt('Ingresa el numero a dividir')
 if (parseInt(num) % 2 == 0) {
@@ -36,6 +37,7 @@ if (parseInt(num) % 2 == 0) {
 
 //4
 /*
+
 var num = prompt('Ingresa un numero');
 if(parseInt(num) === 1000){
     console.log('Ganaste un premio');
@@ -43,8 +45,10 @@ if(parseInt(num) === 1000){
     console.log('Numero: '+num +' Lo sentimos, sigue participando');
 }
 */
+
 //5
 /*
+
 var num = prompt('Ingresa un numero');
 var num2 = prompt('Ingresa un segundo numero')
 if (parseInt(num) > parseInt(num2)) {
@@ -53,8 +57,10 @@ if (parseInt(num) > parseInt(num2)) {
     console.log(num+ ' es el menor');
 }
 */
+
 //6
 /*
+
 var num1 = parseInt(prompt("numero uno: "));
 var num2 = parseInt(prompt("numero dos: "));
 var num3 = parseInt(prompt("numero tres: "));
@@ -85,9 +91,10 @@ else {
     console.log("El mayor es " + mayor);
 }
 */
-//7
 
+//7
 /*
+
 var dia = prompt("Ingresa un dia de la semana").toLocaleLowerCase();
 if (dia == "lunes") {
   console.log("Lunes");
@@ -102,6 +109,7 @@ if (dia == "lunes") {
 
 //8
 /*
+
 var calificacion = parseInt(prompt("Ingresar una calificacion entre 1 y 10: "));
 if (calificacion >= 1 && calificacion <= 10) {
   if (calificacion < 6) {
@@ -121,6 +129,7 @@ if (calificacion >= 1 && calificacion <= 10) {
 
 //9
 /*
+
 var topping = parseInt(prompt("Elige el tipo de topping para tu helado: \n '1' sin topping \n '2' topping oreo \n '3' topping KitKat \n '4' topping brownie  "));
 ​
 if (topping == 1) {
@@ -138,6 +147,7 @@ if (topping == 1) {
 
 //10
 /*
+
 var programa = parseInt(prompt("Elige el tipo de programa: \n '1' Course \n '2' Carrera  \n '3' Master "));
 if (programa == 1) {
    console.log("Course: $4999 MXN")
