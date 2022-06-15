@@ -106,3 +106,9 @@ console.log(promedio(numeros))
 //   mueve con una velocidad de 73000 m/h
 //   recorra una distancia de 120 km.
 //             (TIEMPO = d/v) (editado) 
+
+
+
+
+
+
