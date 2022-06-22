@@ -1,9 +1,12 @@
-body {background-color: aqua;}
+/* body {background-color: aqua;} */
 .cuerpo {margin: 0;
 padding: 0;  
 /* background-color: rgb(0, 255, 255); */
-height: auto;
-width: auto;}
+height: 500px;
+width: auto;
+border: black 5px solid;
+background-color: aqua;
+}
 
 label {
     display: block;
