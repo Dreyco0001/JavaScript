@@ -1,0 +1,23 @@
+body {background-color: aqua;}
+.cuerpo {margin: 0;
+padding: 0;  
+/* background-color: rgb(0, 255, 255); */
+height: auto;
+width: auto;}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+.lugar {position: absolute;
+top: 15%;
+right: 40%;
+}
+
+/* #form {} */
