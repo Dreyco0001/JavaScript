@@ -1,0 +1,54 @@
+Ejercicios
+Escriba un programa de JavaScript para verificar dos números dados y devolver verdadero si uno de los números es 50 o si su suma es 50.
+Escriba un programa de JavaScript para encontrar el mayor de tres números enteros dados.
+Escriba una función de JavaScript que invierta un número.
+Ejemplo x = 32243;
+Salida esperada: 34223
+Escriba una función de JavaScript que reciba un string y devuelva un string con letras en orden alfabético. Suponga que los símbolos de puntuación y números no están incluidos en la cadena pasada.
+Cadena de ejemplo: ‘webmaster’
+Salida esperada: ‘abeemrstw’
+Escriba una función de JavaScript que acepte una cadena como parámetro y convierta la primera letra de cada palabra de la cadena en mayúsculas.
+Cadena de ejemplo: ’la ’casa es color rosa
+Salida esperada: ‘La Casa Es Color Rosa’
+Escriba una declaración condicional de JavaScript para encontrar el mayor de cinco números. Muestra un cuadro de alerta para mostrar el resultado.
+Escriba un bucle for de JavaScript que itere de 0 a 15. Para cada iteración, comprobará si el número actual es par o impar y mostrará un mensaje en la consola.
+Escriba un programa de JavaScript para sumar los múltiplos de 3 y 5 por debajo de 1000.
+Escriba un programa de JavaScript para encontrar el elemento más frecuente de una matriz.
+Matriz de muestra: var arr1=[3, ‘a’, ‘a’, ‘a’, 2, 3, ‘a’, 3, ‘a’, 2, 4, 9, 3];
+Salida de muestra: a (5 veces)
+Del siguiente HTML, modifique el estilo del texto del párrafo a través del código javascript.
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>DOM</title>
+</head>
+<body>
+<p id =‘text’>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 	labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 		laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 		voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 	non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<div>
+<button id=“jsstyle” onclick=“js_style()“>Cambiar estilo</button>
+<button id=“jsbackground” onclick=“js_backgroud()“>Cambiar background</button>
+</div>
+</body>
+</html>
+Al hacer clic en el botón Cambiar estilo, se cambiará la fuente, el tamaño de fuente y el color del texto del párrafo.
+Al hacer clic en el botón Cambiar background, se cambiará el color de fondo del párrafo
+Escriba una función de JavaScript para agregar filas a una tabla.
+<!DOCTYPE html>
+<html><head><meta charset=utf-8 />
+<title>Agregar filas</title>
+</head><body>
+<table id=“ejemploTabla” border=“1">
+<tr><td>Row1 cell1</td>
+<td>Row1 cell2</td></tr>
+<tr><td>Row2 cell1</td>
+<td>Row2 cell2</td></tr>
+</table><br>
+<input type=“button” onclick=“insert_Row()” value=“Insert row”>
+</body></html>
+Escriba un programa JavaScript para mostrar una imagen aleatoria (haciendo clic en un botón) de la siguiente lista.
+“http://farm4.staticflickr.com/3691/11268502654_f28f05966c_m.jpg”, width: “240”, height: “160"
+“http://farm1.staticflickr.com/33/45336904_1aef569b30_n.jpg”, width: “320", height: “195”
+“http://farm6.staticflickr.com/5211/5384592886_80a512e2c9.jpg”, width: “500”, height: “343"
