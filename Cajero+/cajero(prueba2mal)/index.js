@@ -1,9 +1,12 @@
+codigo de avanze rapido 
+
 // var cuentas = [
 //     saldo = 500,
 //     {nombre: "Mali", saldo: 200, contraseña: "1515"},
 //     {nombre: "Gera", saldo: 290, contraseña: "1218"},
 //     {nombre: "Maui", saldo: 67, contraseña: "1234"},
 // ]
+//seguimops mañana o avanzemos y esta listo en el repo
 
 var cuentas = {nombre: "Mali", saldo: 200, contraseña: "1515"}
 
@@ -23,7 +26,7 @@ let selectionMove = parseInt(prompt("Selecciona una de las siguientes Opciones \
 
 console.log(selectionMove)
 
-//opciones de prue
+//opciones de prueba
 switch(selectionMove) {
     case 1:
         checkBalance()
@@ -42,7 +45,7 @@ switch(selectionMove) {
 
 
 
-const input = document.getElementById ("name")
+const input = document.getElementById ("name" && "contra")
 console.log (input.value)
 
 
@@ -53,6 +56,18 @@ Form.addEventListener  ("submit", function(event)  {
     console.log (input.value)  
 })
 
+
+//codigo de abajo sin funcionar de momento
+// const input = document.getElementById ("contra")
+// console.log (input.value)
+
+
+
+// let Form  = document.getElementById ("Form")
+// Form.addEventListener  ("submit", function(event)  {
+//    event.preventDefault ()
+//     console.log (input.value)  
+// })
 
 // function mostrar() {
 //     var x = document.getElementById("name1").innerHTML;
@@ -70,3 +85,7 @@ Form.addEventListener  ("submit", function(event)  {
 // var nombre = prompt("nombre de usuario", "");
 
 // if valor == ""
+
+
+
+//codigo para menu de opciones no funciono el primer codigo
