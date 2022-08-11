@@ -91,10 +91,7 @@ cuentas.push(C0001,C0002,C0003,C0004);
 
 
 }
-// poner un promt de a que cuenta quiere ingresar. e igularlo a cuenta request y passwordrequest
 
-
-// podemos hacer lo siguiente una funcion buscar cuenta()
 
 function validarCuenta(){
     
@@ -129,11 +126,11 @@ function validarCuenta(){
 
 
 function importarCuentas(){
-    let cuentasImportar=location.search.substring(1);// importa los datos del URL
+    let cuentasImportar=location.search.substring(1);
 
-    let a=cuentasImportar.split("-");// los divide en un array dividiendolos por el "-"
-    a[1]=a[1].replace("%20"," ");// quita el %20 y lo reemplaa por un espacio
-    cuenta= new Cuenta(a[0],a[1],a[2],a[3]); // se crea la instancia de cuenta que importe
+    let a=cuentasImportar.split("-");
+    a[1]=a[1].replace("%20"," ");
+    cuenta= new Cuenta(a[0],a[1],a[2],a[3]);
 
     infoUsuario();
 }
@@ -188,22 +185,3 @@ function irA(nombre){
 }
    
 
-/*
-console.log(cuentaRequest);
-let link=document.getElementById("goToNIP")
-if (cuentaRequest.loginCuenta(passwordRequest)==true){
-    link.setAttribute("href","NIP.html")*/
-/*
-console.log(cuentaRequest.consultarSaldo());
-console.log(cuentaRequest.ingresarMonto(290));
-console.log(cuentaRequest.consultarSaldo());
-console.log(cuentaRequest.retirarMonto(10))
-console.log(cuentaRequest.consultarSaldo());
-}
-*/
-/*
-function ingresarCuenta(numeroDeCuenta,password){
-cuentas.forEach(cuenta => {
-    if(numeroDeCuenta==cuenta[0]
-});
-}*/
